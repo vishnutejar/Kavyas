@@ -32,7 +32,7 @@ namespace Kavyas.Droid
         // Simulates background work that happens behind the splash screen
         async void SimulateStartup()
         {
-            await Task.Delay(2000); // Simulate a bit of startup work.
+            await Task.Delay(5000); // Simulate a bit of startup work.
             StartActivity(new Intent(Application.Context, typeof(MainActivity)));
         }
     }
